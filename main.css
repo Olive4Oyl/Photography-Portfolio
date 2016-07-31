@@ -1,0 +1,244 @@
+div {
+    margin: auto;
+    padding: 0px 0px;
+    width: 100%;
+    vertical-align: top;
+/*    border: solid black 2px;*/
+}
+
+.photo_main{
+    background-image: url("https://c1.staticflickr.com/9/8586/28597460151_716bbf1c24_o.jpg");  
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+}
+
+body {
+      background-color: #07070A;
+/*#smokey black group1*/
+/*    background-color: #7F7B82;*/
+/*grey group 2*/
+/*    background-color: #252323; */
+/*    #group3*/
+/*    background-color: #818479;*/
+/*    #lightgrey*/
+}
+
+.header {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #F4FAFF;
+/*#group1*/
+}
+
+
+.logo:visited, .fashion:visited, .portrait:visited, .about:visited, .ig:visited {
+    text-decoration: none;
+}
+
+.fashion:hover a, .portrait:hover a, .about:hover a, .ig:hover a, .contact_name:hover a {
+    color: #D60E0E;
+}
+
+.logo{
+    width: 400px;
+    margin-left: 0px;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Nixie One', cursive;
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+.img_ig{
+    width: 35px;
+    margin-left: -60px;
+    margin-top: -6px;
+}
+
+.fashion{
+    width: 120px;
+    height: 72px;
+    margin-top: 0px;
+    margin-left: 400px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Nixie One', cursive;
+    font-size: 20px;
+}
+
+.portrait{
+    width: 120px;
+    height: 72px;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Nixie One', cursive;
+    font-size: 20px;
+}
+
+.about{
+    width: 120px;
+    height: 72px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Nixie One', cursive;
+    font-size: 20px;
+}
+
+.ig{
+    width: 120px;
+    height: 52px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*fashion_page*/
+
+.img1 {
+    width: 350px;
+    display: inline-block;
+    position: relative;
+    margin-left: 9px;
+    
+} 
+
+img { 
+    border-top: solid 3px #D60E0E;
+    border-bottom: solid 3px #D60E0E;
+}
+
+.img2 {
+    width: 450px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    margin-left: 40px;
+}
+
+.img3 {
+    width: 350px;
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+}
+
+.img4 {
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.img5 {
+    width: 450px;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
+
+/*portrait_page*/
+
+.img6 {
+    width: 650px;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+.img7 {
+    width: 450px;
+    display: inline-block;
+    position: relative;
+    margin-left: 40px;
+}
+
+.img8 {
+    width: 450px;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.img9 {
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px; 
+}
+
+/*about_page*/
+
+.contact_info {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.contact_info > p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 25px;
+    padding-left: 58px;
+    color: #F8F0FB;
+/*#group1*/
+}
+
+.contact_info >.contact_name {
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    color: #F5F0F6;
+    padding-left: 58px;
+    text-decoration: underline;
+}
+
+.img11 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 460px;
+    width: 590px;
+    margin-top: 20px;
+}
+
+.about_me {
+    width: calc(50% - 90px);
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.about_me > p{ 
+    color: #F5F0F6;
+/*    #group 1*/
+/*    color: #070707;*/
+/*#some dark black color*/
+    font-family: 'Assistant', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
